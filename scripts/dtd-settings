@@ -1,0 +1,9 @@
+#!/bin/sh
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true
+gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true
+gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size=32
+gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme=true
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-shrink=true
+gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity=0.90000000000000002220
+gsettings set org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots=false
+rm ~/.config/autostart/dash-to-dock-settings.desktop
