@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=dtd-settings
+Name=dtd-settings
+Comment=Set theming for Dash to dock extension
+Type=Application
+Icon=nautilus
+StartupNotify=false
+NotShowIn=KDE;
+X-GNOME-Autostart-enabled=true
