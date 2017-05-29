@@ -27,7 +27,7 @@ echo
 case "$choice" in 
 	 "O" | "o" )
 	 touch $a
-	 echo "pkill -KILL -u gdm" >> $a
+	 echo "grep - q "^AutomaticLoginEnable=True" /etc/gdm/custom.conf || pkill -KILL -u gdm" >> $a
 	 chmod 755 $a
 	 echo
 	 echo "Logout and Login for apply and you have finished" 
